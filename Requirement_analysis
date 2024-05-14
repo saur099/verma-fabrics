@@ -1,61 +1,64 @@
-==>> User Authentication Module:
+-------------------------------------------------------------
+Branch Creation  : e.g. feature/story1/task1
+-------------------------------------------------------------
+STORY_1 ==>> User Authentication Module:
 
 Task 1: Set up user authentication endpoints (register, login, logout) using Passport.js.
 Task 2: Implement JWT (JSON Web Token) for secure authentication.
 Task 3: Connect MongoDB to store user data (name, email, password).
 
-Product Management Module:
+STORY_2 ==>> Product Management Module:
 
 Task 1: Design database schema for products (name, description, price, quantity, etc.).
 Task 2: Create CRUD (Create, Read, Update, Delete) APIs for managing products.
 Task 3: Implement file upload functionality for product images.
 Task 4: Handle product categories and tags.
 
-Shopping Cart Module:
+STORY_3 ==>> Shopping Cart Module:
 
 Task 1: Design database schema for shopping carts.
 Task 2: Create APIs to handle adding/removing products to/from the cart.
 Task 3: Calculate total price and quantity in the cart.
 Task 4: Integrate with user authentication to link carts to specific users.
 
-Order Management Module:
+STORY_4 ==>> Order Management Module:
 
 Task 1: Design database schema for orders.
 Task 2: Implement APIs for placing orders.
 Task 3: Handle order status (pending, processing, completed, cancelled).
 Task 4: Generate order invoices.
 
-Payment Integration Module:
+STORY_5 ==>> Payment Integration Module:
 
 Task 1: Integrate a payment gateway (e.g., Stripe, PayPal) for accepting payments.
 Task 2: Implement APIs for processing payments.
 Task 3: Handle payment confirmation and order fulfillment.
 
-Admin Panel Module:
+STORY_6 ==>> Admin Panel Module:
 
 Task 1: Create an admin dashboard for managing products, orders, and users.
 Task 2: Implement authentication and authorization for admin users.
 Task 3: Allow CRUD operations on products, orders, and users.
 
-Search and Filter Module:
+STORY_7 ==>> Search and Filter Module:
 
 Task 1: Implement search functionality to search for products.
 Task 2: Add filtering options based on categories, price range, etc.
 Task 3: Improve search performance using indexing.
 
-Frontend Integration:
+STORY_8 ==>> Frontend Integration:
 
 Task 1: Design responsive UI/UX for the website using HTML, CSS, and JavaScript.
 Task 2: Integrate frontend with backend APIs using AJAX or Fetch API.
 Task 3: Implement user interfaces for product browsing, shopping cart, and checkout.
 
-Testing and Validation:
+STORY_9 ==>> Testing and Validation:
 
 Task 1: Write unit tests for APIs using frameworks like Mocha and Chai.
 Task 2: Perform integration testing to ensure all modules work together seamlessly.
 Task 3: Validate user inputs and handle errors gracefully.
 
-Deployment:
+STORY_10 ==>> Deployment:
 
 Task 1: Set up a production MongoDB database.
 Task 2: Deploy the Node.js application on a hosting platform like Heroku or AWS.
