@@ -1,0 +1,42 @@
+1.Users Collection:
+
+_id: ObjectId
+username: String
+email: String
+password: String (hashed)
+createdAt: Date
+updatedAt: Date
+
+  2.Products Collection:
+
+_id: ObjectId
+name: String
+description: String
+price: Number
+quantity: Number
+category: String
+tags: Array of Strings
+createdAt: Date
+updatedAt: Date
+
+  3.Carts Collection:
+
+_id: ObjectId
+userId: ObjectId (reference to Users collection)
+items: Array of Objects
+productId: ObjectId (reference to Products collection)
+quantity: Number
+createdAt: Date
+updatedAt: Date
+
+  4.Orders Collection:
+
+_id: ObjectId
+userId: ObjectId (reference to Users collection)
+items: Array of Objects
+productId: ObjectId (reference to Products collection)
+quantity: Number
+totalPrice: Number
+status: String (e.g., "pending", "processing", "completed")
+createdAt: Date
+updatedAt: Date
